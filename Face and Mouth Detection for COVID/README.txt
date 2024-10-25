@@ -1,0 +1,3 @@
+This project, which detects our face and mouth using our computer's webcam, is a system that checks whether we are wearing a mask live. If the user seen on the webcam is not wearing a mask (i.e. their mouth is not detected), they are warned with the warning text on the top left. Before running our Python-based code, we need to download our .xml files prepared for face and mouth detection and put them in the same folder as our .py code. Then we can run our code.
+
+If you are getting an error. Make sure that your camera is not being used by another application and if you are using more than one camera, try changing the "capture = cv.VideoCapture(0)" line in the code to different values ​​such as "capture = cv.VideoCapture(1)".
