@@ -1,0 +1,3 @@
+This project, which detects our face and eyes using our computer's webcam, shows our live blink count in the upper left part of the window. We can also access the FPS values ​​in the upper right part. Before running our Python-based code, we need to download our .xml files prepared for face and eye detection and put them in the same folder as our .py code. Then we can run our code.
+
+If you are getting an error. Make sure that your camera is not being used by another application and if you are using more than one camera, try changing the line "capture = cv.VideoCapture(0)" in the code to different values ​​such as "capture = cv.VideoCapture(1)".
